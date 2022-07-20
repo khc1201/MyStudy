@@ -5,3 +5,7 @@
         Console.WriteLine("HelloWorld");
     }
 }
+public interface IStudy
+{
+    public void DoAction();
+}

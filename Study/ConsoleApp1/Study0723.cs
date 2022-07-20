@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Application
 {
-    internal class Class1
+    internal class Study0723 : IStudy
     {
+        public void DoAction() 
+        {
+        }
     }
+
+
+    // 숙제 1. 막대 자르기
+
+    // 숙제 2. 이진 트리를 구현하고 depth, heigth 구하기
+
+
 }
