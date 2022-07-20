@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyStudy\\MyStudy\\Study\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "E:\\MyStudy\\MyStudy\\Study\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "E:\\MyStudy\\MyStudy\\Study\\ConsoleApp1\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "E:\\MyStudy\\MyStudy\\Study\\ConsoleApp1\\Application.csproj",
       "packagesPath": "C:\\Users\\doa06\\.nuget\\packages\\",
       "outputPath": "E:\\MyStudy\\MyStudy\\Study\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
