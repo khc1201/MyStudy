@@ -27,6 +27,7 @@ namespace Application
 namespace ArrayToBinaryTree
 {
     // 숙제 2. 이진 트리를 구현하고 depth, heigth 구하기
+    
     public class Solution : IStudy
     {
         public void DoAction()
@@ -36,6 +37,7 @@ namespace ArrayToBinaryTree
             
             //for test
             ShowArray(array);
+
         }
 
         private int[] GetArrayByString(string source)
@@ -79,7 +81,8 @@ namespace ArrayToBinaryTree
             sb.Append(']');
             Console.WriteLine(sb);
         }
-        
+
+
     }
 
 
@@ -89,23 +92,61 @@ namespace ArrayToBinaryTree
         public MyTreeNode Root { get { return m_root; } }
         public MyTreeNode GetNodeByValue(int value)
         {
-            throw new NotImplementedException();
+            MyTreeNode tempNode = m_root;
+            while (tempNode != null)
+            {
+                if(value == tempNode.m_value)
+                {
+                    return tempNode;
+                }
+
+                if (tempNode.m_child[0] == null && tempNode.m_child[1] == null)
+                {
+                    return null;
+                }
+                else if (value > tempNode.m_value)
+                {
+                    tempNode = tempNode.m_child[1];
+                    if(tempNode == null)
+                    {
+                        return null;
+                    }
+                }
+                else
+                {
+                    tempNode = tempNode.m_child[0];
+                    if(tempNode == null)
+                    {
+                        return null;
+                    }
+                }
+            }
+            return null;
         }
 
         public void AddNode(MyTreeNode parent, int value)
         {
-            if(parent == null)
-            {
-                AddRootNodeByValue(value);
-            }
             MyTreeNode childNode = new MyTreeNode(parent, value);
-            int childIndex = value <= parent.m_value ? 0 : 1;
-            parent.m_child[childIndex] = childNode;
+            if (parent == null)
+            {
+                AddRootNode(childNode);
+                return;
+            }
+            else 
+            {
+                int childIndex = value <= parent.m_value ? 0 : 1;
+                parent.m_child[childIndex] = childNode;
+            }
         }
-        private void AddRootNodeByValue(int value)
+        private void AddRootNode(MyTreeNode root)
         {
             //[추구 구현] .Clear();
-            m_root = new MyTreeNode(null, value);
+            m_root = root;
+        }
+
+        public MyTree()
+        {
+
         }
     }
     public class MyTreeNode
