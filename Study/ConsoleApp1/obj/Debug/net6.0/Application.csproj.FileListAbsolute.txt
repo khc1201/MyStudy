@@ -1,0 +1,15 @@
+E:\MyStudy\MyStudy\Study\ConsoleApp1\bin\Debug\net6.0\Application.exe
+E:\MyStudy\MyStudy\Study\ConsoleApp1\bin\Debug\net6.0\Application.deps.json
+E:\MyStudy\MyStudy\Study\ConsoleApp1\bin\Debug\net6.0\Application.runtimeconfig.json
+E:\MyStudy\MyStudy\Study\ConsoleApp1\bin\Debug\net6.0\Application.dll
+E:\MyStudy\MyStudy\Study\ConsoleApp1\bin\Debug\net6.0\Application.pdb
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.AssemblyInfo.cs
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.dll
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\refint\Application.dll
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.pdb
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\Application.genruntimeconfig.cache
+E:\MyStudy\MyStudy\Study\ConsoleApp1\obj\Debug\net6.0\ref\Application.dll

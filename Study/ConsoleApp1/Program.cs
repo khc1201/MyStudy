@@ -2,7 +2,8 @@
 {
     public static void Main()
     {
-        Console.WriteLine("HelloWorld");
+        IStudy myStudy = new Application.Study0730();
+        myStudy.DoAction();
     }
 }
 public interface IStudy
