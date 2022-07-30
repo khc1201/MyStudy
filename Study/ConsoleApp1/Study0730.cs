@@ -46,9 +46,9 @@ namespace HomeWork0730_1
                 myTree.Append(indexArray[i], charArray[i]);
             }
 
-            myTree.ShowTree(MTree.ShowType.PreOrder, true);
-            myTree.ShowTree(MTree.ShowType.InOrder, true);
-            myTree.ShowTree(MTree.ShowType.PostOrder, true);
+            myTree.ShowTree(ShowType.PreOrder, true);
+            myTree.ShowTree(ShowType.InOrder, true);
+            myTree.ShowTree(ShowType.PostOrder, true);
 
         }
        

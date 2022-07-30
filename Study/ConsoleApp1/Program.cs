@@ -18,6 +18,8 @@ public interface IStudy
 }
 
 
+public enum ShowType { PreOrder, InOrder, PostOrder }
+
 public class MTree
 {
     private MTreeNode m_root;
@@ -145,7 +147,6 @@ public class MTree
     }
 
     StringBuilder m_sb = new StringBuilder();
-    public enum ShowType {PreOrder, InOrder, PostOrder}
     public void ShowTree(ShowType type, bool isShowChar = false)
     {
         m_sb.Clear();
@@ -180,11 +181,6 @@ public class MTree
         
         m_sb.Append(']');
         Console.WriteLine($"[Test] ShowTree() - Type({typeString}) : " + m_sb.ToString());
-    }
-    public void Clear()
-    {
-        m_root = null;
-        m_count = 0;
     }
     private void ShowNode_Recursive_PreOrder(MTreeNode node, bool isShowChar)
     {
@@ -246,6 +242,12 @@ public class MTree
             m_sb.Append(node.m_value + ", ");
         }
     }
+    public void Clear()
+    {
+        m_root = null;
+        m_count = 0;
+    }
+
 
 }
 public class MTreeNode
